@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <h1 className={styles.container}>Midnight Hacks</h1>
+      <h1 className="text-blue-600">Midnight Hacks</h1>
     </div>
   )
 }
