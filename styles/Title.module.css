@@ -23,6 +23,12 @@
     justify-content: center;
     align-items: center;
     font-size: 700%;
+    border-radius: 15px;
+    border: 5px solid rgb(255, 2, 150);
+    box-shadow: 5px 5px 40px rgb(255, 2, 150);
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
     animation: blinkLights ease 3s;
     animation-iteration-count: infinite;
 }
@@ -37,7 +43,7 @@
     font-size: 200%;
     text-align: center;
     font-family: Inter;
-    margin: 5rem;
+    margin: 4rem;
 }
 
 .btn {
@@ -49,7 +55,7 @@
     border-radius: 9px;
     color: white;
     margin: auto;
-    margin-top: 8rem;
+    margin-top: 5rem;
     transition: 200ms ease;
 }
 
@@ -83,24 +89,34 @@
     0% {
         text-shadow: 0;
         color:rgb(51, 50, 50);
+        border: 5px solid rgb(51, 50, 50);
+        box-shadow: 5px 5px 40px rgb(51, 50, 50);
     }
 
     6% {
         text-shadow: 5px 5px 40px rgb(2, 204, 255);
         color:rgb(2, 204, 255);
+        border: 5px solid rgb(255, 2, 150);
+        box-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
     8% {
         text-shadow: 0;
         color:rgb(51, 50, 50);
+        border: 5px solid rgb(51, 50, 50);
+        box-shadow: 5px 5px 40px rgb(51, 50, 50);
     }
     10% {
         text-shadow: 5px 5px 40px rgb(2, 204, 255);
         color:rgb(2, 204, 255);
+        border: 5px solid rgb(255, 2, 150);
+        box-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
    
     100% {
         text-shadow: 5px 5px 40px rgb(2, 204, 255);
         color:rgb(2, 204, 255);
+        border: 5px solid rgb(255, 2, 150);
+        box-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
 
 }

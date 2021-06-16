@@ -21,7 +21,7 @@ const Nav = ({ router }) => {
                         className={`inline-block whitespace-nowrap text-white ${navStyles.logo}`}
                         href="/"
                     >
-                        <img src="/isolated-logo.png" className={`object-scale-down ${navStyles.logo}`}></img>
+                        <img src="/logo.svg" className={`object-scale-down ${navStyles.logo}`}></img>
                     </a>
                     <button
                         className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
