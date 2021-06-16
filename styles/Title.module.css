@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Potra";
+    src: url("../styles/Potra/Potra.otf") format("opentype");
+}
+
+.background {
+    background-color: #000;
+    height: 100vh;
+}
+
+.title {
+    color: #fff;
+    font-family: Potra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 700%;
+    transition: 200ms ease;
+}
+
+.title:hover {
+    text-shadow: 5px 5px 40px rgb(2, 204, 255);
+    color:rgb(2, 204, 255)
+}
+
+.logo {
+    margin: auto;
+    max-width: 60%;
+}
