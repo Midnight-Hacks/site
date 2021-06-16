@@ -23,12 +23,8 @@
     justify-content: center;
     align-items: center;
     font-size: 700%;
-    transition: 200ms ease;
-}
-
-.title:hover {
-    text-shadow: 5px 5px 40px rgb(2, 204, 255);
-    color:rgb(2, 204, 255)
+    animation: blinkLights ease 3s;
+    animation-iteration-count: infinite;
 }
 
 .logo {
@@ -56,5 +52,30 @@
     .text {
         font-size: 100%;
     }
+}
 
-  }
+@keyframes blinkLights {
+    0% {
+        text-shadow: 0;
+        color:rgb(51, 50, 50);
+    }
+
+    6% {
+        text-shadow: 5px 5px 40px rgb(2, 204, 255);
+        color:rgb(2, 204, 255);
+    }
+    8% {
+        text-shadow: 0;
+        color:rgb(51, 50, 50);
+    }
+    10% {
+        text-shadow: 5px 5px 40px rgb(2, 204, 255);
+        color:rgb(2, 204, 255);
+    }
+   
+    100% {
+        text-shadow: 5px 5px 40px rgb(2, 204, 255);
+        color:rgb(2, 204, 255);
+    }
+
+}
