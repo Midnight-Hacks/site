@@ -13,6 +13,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+:root {
+  --primary-color: rgb(8, 185, 224);
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -30,5 +34,9 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(8, 185, 224);
+  background-color: var(--primary-color);
+}
+
+::selection {
+  background: var(--primary-color);
 }
