@@ -1,12 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import Title from '../components/Title';
-import styles from '../styles/Home.module.css'
-import titleStyles from '../styles/Title.module.css';
-
+import About from '../components/About';
 
 export default function Home() {
   return (
-    <Title />
+    <div>
+      <Title />
+      <About />
+    </div>
   )
 }
