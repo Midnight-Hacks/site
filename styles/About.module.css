@@ -1,0 +1,57 @@
+.background {
+    background-color: #131313;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.title {
+    color: #fff;
+    font-family: Potra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 700%;
+    animation: blinkLights ease 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 250%;
+    }
+
+    .text {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        font-size: 100%;
+    }
+}
+
+
+@keyframes blinkLights {
+    0% {
+        text-shadow: 0;
+        color:rgb(51, 50, 50);
+    }
+
+    6% {
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+        color:rgb(255, 2, 150);
+    }
+    8% {
+        text-shadow: 0;
+        color:rgb(51, 50, 50);
+    }
+    10% {
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+        color:rgb(255, 2, 150);
+    }
+   
+    100% {
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+        color:rgb(255, 2, 150);
+    }
+
+}

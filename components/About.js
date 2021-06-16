@@ -1,7 +1,9 @@
+import aboutStyles from '../styles/About.module.css';
+
 const About = () => {
     return (
-        <section>
-            <h2>about us</h2>
+        <section className={aboutStyles.background}>
+            <span className={aboutStyles.title}>about us</span>
         </section>
     );
 }
