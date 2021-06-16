@@ -3,7 +3,9 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    
 }
+
 .title {
     color: #fff;
     font-family: Potra;
@@ -16,6 +18,13 @@
     animation-iteration-count: infinite;
 }
 
+.text {
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    font-family: Inter;
+    margin: 5rem;
+}
 
 @media screen and (max-width: 800px) {
     .title {
