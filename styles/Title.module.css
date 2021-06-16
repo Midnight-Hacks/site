@@ -37,20 +37,45 @@
     font-size: 200%;
     text-align: center;
     font-family: Inter;
-    
+    margin: 5rem;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    background: transparent;
+    border: 1px solid rgb(8, 185, 224);
+    border-radius: 9px;
+    color: white;
+    margin: auto;
+    margin-top: 8rem;
+    transition: 200ms ease;
+}
+
+.btn:hover {
+    background: rgb(8, 185, 224);
+    outline: none;
 }
 
 @media screen and (max-width: 450px) {
     .title {
-        font-size: 200%;
+        font-size: 250%;
     }
 
     .logo {
+        margin-top: 2.5rem;
         max-width: 100%;
     }
     
     .text {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         font-size: 100%;
+    }
+
+    .btn {
+        width: 100px;
     }
 }
 
