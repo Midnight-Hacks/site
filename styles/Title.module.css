@@ -3,8 +3,15 @@
     src: url("../styles/Potra/Potra.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "Inter";
+    src: url("../styles/Inter/static/Inter-Thin.ttf");
+}
+
 .background {
-    background-color: #000;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -28,3 +35,26 @@
     margin: auto;
     max-width: 60%;
 }
+
+.text {
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    font-family: Inter;
+    
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 200%;
+    }
+
+    .logo {
+        max-width: 100%;
+    }
+    
+    .text {
+        font-size: 100%;
+    }
+
+  }
