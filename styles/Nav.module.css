@@ -14,5 +14,10 @@
 
 .logo {
     font-family: "Potra";
-    max-width: 30%;
+    max-width: 32%;
+}
+
+img.logo {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 50%;
 }
