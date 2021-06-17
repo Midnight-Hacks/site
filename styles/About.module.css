@@ -36,7 +36,7 @@
 .logo {
     width: 400pt;
     height: 400pt;
-    filter: invert(19%) sepia(91%) saturate(5289%) hue-rotate(314deg) brightness(98%) contrast(111%);
+    filter: invert(29%) sepia(84%) saturate(7500%) hue-rotate(305deg) brightness(103%) contrast(117%);
     grid-area: image;
 }
 
@@ -69,16 +69,12 @@
         width: 150pt;
         height: 150pt;
         margin: auto;
-        
-        
     }
     
     .subtext {
         margin: 2rem;
         font-size: 90%;
     }
-    
-    
 }
 
 
