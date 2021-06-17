@@ -90,14 +90,15 @@
     }
     
     .text {
-        margin-top: 7rem;
-        margin-bottom: 5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         font-size: 100%;
     }
 
     .btn {
         width: 100px;
         margin-bottom: 3rem;
+        margin-top: 3rem;
     }
 }
 

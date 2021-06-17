@@ -32,4 +32,8 @@
     .logo {
         font-size: 100%;
     }
+
+    .navbar {
+        display: none;
+    }
 }
