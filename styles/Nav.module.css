@@ -11,11 +11,12 @@
 .navbar {
     font-family: "Inter";
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
 .logo {
     font-family: "Potra";
     max-width: 32%;
-    
 }

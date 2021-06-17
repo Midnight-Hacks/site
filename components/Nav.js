@@ -3,9 +3,9 @@ import { NextRouter, withRouter } from 'next/router';
 import Link from 'next/link';
 
 const routes = [
-    { name: 'About', href: '/about', current: false },
-    { name: 'Sponsors', href: '/sponsors', current: false },
-    { name: 'Prizes', href: '/prizes', current: false },
+    { name: 'About', href: '#about', current: false },
+    { name: 'Sponsors', href: '#sponsors', current: false },
+    { name: 'Prizes', href: '#prizes', current: false },
 ]
 
 function classNames(...classes) {
@@ -19,7 +19,7 @@ const Nav = ({ router }) => {
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <a
                         className={`inline-block whitespace-nowrap text-white ${navStyles.logo}`}
-                        href="/"
+                        href="#start"
                     >
                         <img src="/logo.svg" className={`object-scale-down ${navStyles.logo}`}></img>
                     </a>
