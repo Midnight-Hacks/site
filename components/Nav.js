@@ -14,14 +14,14 @@ function classNames(...classes) {
 
 const Nav = ({ router }) => {
     return (
-        <nav className={`relative flex flex-wrap items-center justify-between px-2 py-3 h-16 bg-charcoal-black navbar ${navStyles.navbar}`}>
+        <nav className={`relative bg-charcoal-black navbar ${navStyles.navbar}`}>
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <a
                         className={`inline-block whitespace-nowrap text-white ${navStyles.logo}`}
-                        href="#start"
+                        href="/"
                     >
-                        <img src="/logo.svg" className={`object-scale-down ${navStyles.logo}`}></img>
+                        <span className={`object-scale-down ${navStyles.logo}`}>Midnight Hacks</span>
                     </a>
                     <button
                         className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

@@ -9,14 +9,27 @@
 }
 
 .navbar {
+    width: 100%;
     font-family: "Inter";
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 .logo {
     font-family: "Potra";
-    max-width: 32%;
+    font-size: 180%;
+    transition: 100ms ease;
+}
+
+.logo:hover {
+    color: rgb(255, 2, 150);
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        font-size: 100%;
+    }
 }

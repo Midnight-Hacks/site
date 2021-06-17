@@ -66,6 +66,10 @@
 
 @media screen and (max-width: 800px) {
 
+    .background {
+        height: 100%;
+    }
+
     .title {
         font-size: 250%;
         margin: 2rem;
@@ -90,6 +94,7 @@
 
     .btn {
         width: 100px;
+        margin-bottom: 3rem;
     }
 }
 
