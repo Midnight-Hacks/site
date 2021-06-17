@@ -23,7 +23,32 @@
     font-size: 200%;
     text-align: center;
     font-family: Inter;
-    margin: 5rem;
+    margin: 2rem;
+}
+
+.logoContainer {
+    float: left;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 400pt;
+    height: 400pt;
+    filter: invert(19%) sepia(91%) saturate(5289%) hue-rotate(314deg) brightness(98%) contrast(111%);
+    display: inline;
+}
+
+.subtextContainer {
+    float: right;
+}
+
+.subtext {
+    display: inline;
+    color: #fff;
+    font-size: 150%;
+    font-family: Inter;
+    margin-right: 2rem;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
