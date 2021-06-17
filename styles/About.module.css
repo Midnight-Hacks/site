@@ -40,13 +40,13 @@
     grid-area: image;
 }
 
+
 .subtext {
     color: #fff;
-    font-size: 120%;
+    font-size: 150%;
     font-family: Inter;
     margin: 7rem 25rem 0px 0px ;
     grid-area: text;
-
 }
 
 @media screen and (max-width: 800px) {
@@ -55,14 +55,30 @@
     }
 
     .text {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-top: 2.5rem;
         font-size: 100%;
     }
-    .logo {
-        width: 50pt;
-        height: 50pt;
+
+    .contentContainer {
+        grid-template-areas: 
+            "image"
+            "text";
     }
+
+    .logo {
+        width: 150pt;
+        height: 150pt;
+        margin: auto;
+        
+        
+    }
+    
+    .subtext {
+        margin: 2rem;
+        font-size: 90%;
+    }
+    
+    
 }
 
 
