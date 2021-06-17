@@ -1,7 +1,9 @@
+import sponsorStyles from '../styles/Sponsor.module.css';
+
 const Sponsor = () => {
     return (
-        <section>
-            <h1>sponsors!</h1>
+        <section className={sponsorStyles.background}>
+            <span className={sponsorStyles.title}>sponsors</span>
         </section>
     );
 }

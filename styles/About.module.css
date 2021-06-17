@@ -3,7 +3,6 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
 }
 
 .title {
@@ -54,9 +53,13 @@
         font-size: 250%;
     }
 
+    .background {
+        height: 100%;
+    };
+
     .text {
         margin-top: 2.5rem;
-        font-size: 100%;
+        font-size: 90%;
     }
 
     .contentContainer {
@@ -69,6 +72,7 @@
         width: 150pt;
         height: 150pt;
         margin: auto;
+        margin-bottom: 0;
     }
     
     .subtext {

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Potra";
+    src: url("../styles/Potra/Potra.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../styles/Inter/static/Inter-Light.ttf");
+}
+
+.background {
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title {
+    color: #fff;
+    font-family: Potra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+    border-radius: 15px;
+    border: 5px solid rgb(2, 204, 255);
+    box-shadow: 5px 5px 40px rgb(2, 204, 255);
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-top: 4rem;
+    animation: blinkLights ease 3s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        font-size: 250%;
+        margin: 2rem;
+        animation: none;
+        border: none;
+        box-shadow: none;
+        color: rgb(8, 185, 224);
+        border-radius: 0;
+        border-bottom: 2px solid rgb(255, 2, 150);
+    }
+}
+
+@keyframes blinkLights {
+    0% {
+        text-shadow: 0;
+        color:rgb(51, 50, 50);
+        border: 5px solid rgb(51, 50, 50);
+        box-shadow: 5px 5px 40px rgb(51, 50, 50);
+    }
+
+    6% {
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+        color:rgb(255, 2, 150);
+        border: 5px solid rgb(2, 204, 255);
+        box-shadow: 5px 5px 40px rgb(2, 204, 255);
+    }
+    8% {
+        text-shadow: 0;
+        color:rgb(51, 50, 50);
+        border: 5px solid rgb(51, 50, 50);
+        box-shadow: 5px 5px 40px rgb(51, 50, 50);
+    }
+    10% {
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+        color:rgb(255, 2, 150);
+        border: 5px solid rgb(2, 204, 255);
+        box-shadow: 5px 5px 40px rgb(2, 204, 255);
+    }
+   
+    100% {
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+        color:rgb(255, 2, 150);
+        border: 5px solid rgb(2, 204, 255);
+        box-shadow: 5px 5px 40px rgb(2, 204, 255);
+    }
+
+}
