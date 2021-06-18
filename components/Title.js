@@ -4,7 +4,7 @@ const Title = () => {
     return (
         <>
             <br id="start"></br>
-            <br></br> // pro coder
+            <br></br>
             <section className={titleStyles.background}>
                 <div className={titleStyles.content}>
                     <span className={titleStyles.title}>midnight hacks</span>
