@@ -2,7 +2,7 @@
     background-color: #131313;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .title {
@@ -52,10 +52,6 @@
     .title {
         font-size: 250%;
     }
-
-    .background {
-        height: 100%;
-    };
 
     .text {
         margin-top: 2.5rem;

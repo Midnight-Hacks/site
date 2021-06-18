@@ -3,9 +3,9 @@ import titleStyles from '../styles/Title.module.css';
 const Title = () => {
     return (
         <>
-            <br></br>
+            <br id="start"></br>
             <br></br> // pro coder
-            <section className={titleStyles.background} id="start">
+            <section className={titleStyles.background}>
                 <div className={titleStyles.content}>
                     <span className={titleStyles.title}>midnight hacks</span>
                     <img src="/website-logo.png" className={titleStyles.logo}/>

@@ -19,7 +19,7 @@ const Nav = ({ router }) => {
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <a
                         className={`inline-block whitespace-nowrap text-white ${navStyles.logo}`}
-                        href="/"
+                        href="#start"
                     >
                         <span className={`object-scale-down ${navStyles.logo}`}>Midnight Hacks</span>
                     </a>
