@@ -27,6 +27,7 @@
     text-align: center;
     font-family: Potra;
     margin: 2rem;
+    color: rgb(8, 185, 224);
 }
 
 .subtext {
@@ -72,6 +73,7 @@
         font-size: 170%;
         margin: 0;
         margin-bottom: 2rem;
+        
     }
 
     .subtext {
