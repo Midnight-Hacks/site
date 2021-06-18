@@ -28,7 +28,7 @@
     color: rgb(255, 2, 150);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025) {
     .logo {
         font-size: 100%;
     }
