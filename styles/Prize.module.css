@@ -29,6 +29,13 @@
     margin: 2rem;
 }
 
+.subtext {
+    color: #fff;
+    font-size: 140%;
+    font-family: Inter;    
+    display: inline;
+}
+
 .prizes {
     display: grid;
     grid-template-areas: 
@@ -41,7 +48,15 @@
     border-bottom: 3px solid rgb(255, 2, 150);
 }
 
+.prizeDiv {
+    margin-bottom: 5rem;
+    max-width: 40rem;
+}
 
+.desc {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
 
 @media screen and (max-width: 1025px) {
     .title {
@@ -56,11 +71,18 @@
     .text {
         font-size: 170%;
         margin: 0;
+        margin-bottom: 2rem;
+    }
+
+    .subtext {
+        margin: 2.5rem;
+        margin-top: 0;
+        font-size: 110%;
     }
 
     .prizeCard {
         margin: 2.5rem;
-        margin-top: 0;
+        margin-bottom: 2rem;
     }
 
     .prizes {
@@ -71,6 +93,10 @@
             "prize4"
             "prize5"
             "prize6";
+    }
+
+    .desc {
+        margin: 0;
     }
 }
 
