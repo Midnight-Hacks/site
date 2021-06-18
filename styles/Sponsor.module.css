@@ -62,12 +62,10 @@
     .title {
         font-size: 250%;
         margin: 2rem;
-        animation: none;
         border: none;
         box-shadow: none;
-        color: rgb(8, 185, 224);
         border-radius: 0;
-        border-bottom: 2px solid rgb(255, 2, 150);
+        border-bottom: 2px solid rgb(8, 185, 224);
     }
 }
 
@@ -78,16 +76,19 @@
 
     6% {
         color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
     8% {
         color:rgb(51, 50, 50);
     }
     10% {
         color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
    
     100% {
         color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
 
 }

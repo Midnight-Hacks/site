@@ -13,7 +13,7 @@ const Title = () => {
                     
                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                         <button className={titleStyles.btn}>
-                            Sign in
+                            Sign up
                         </button>
                     </a>
                 </div>

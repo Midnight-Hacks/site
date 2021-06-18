@@ -6,6 +6,7 @@ const routes = [
     { name: 'About', href: '#about', current: false },
     { name: 'Sponsors', href: '#sponsors', current: false },
     { name: 'Prizes', href: '#prizes', current: false },
+    { name: 'Team', href: '#team', current: false },
 ]
 
 function classNames(...classes) {

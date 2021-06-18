@@ -16,7 +16,7 @@
     border-bottom: 5px solid rgb(2, 204, 255);
     margin-left: 30rem;
     margin-right: 30rem;
-    margin-bottom: 5rem;
+    margin-top: 9rem;
     animation: blinkLights ease 3s;
     animation-iteration-count: infinite;
 }
@@ -26,31 +26,9 @@
     font-size: 200%;
     text-align: center;
     font-family: Inter;
-    margin: 2rem;
+    margin: 4rem;
 }
 
-.contentContainer {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-areas: 
-        "image text";
-}
-
-.logo {
-    width: 400pt;
-    height: 400pt;
-    filter: invert(29%) sepia(84%) saturate(7500%) hue-rotate(305deg) brightness(103%) contrast(117%);
-    grid-area: image;
-}
-
-
-.subtext {
-    color: #fff;
-    font-size: 150%;
-    font-family: Inter;
-    margin: 7rem 25rem 4rem 0px ;
-    grid-area: text;
-}
 
 @media screen and (max-width: 1025px) {
     .title {
@@ -61,54 +39,28 @@
         border-radius: 0;
         border-bottom: 2px solid rgb(8, 185, 224);
     }
-
-    .text {
-        margin-top: 2.5rem;
-        font-size: 90%;
-    }
-
-    .contentContainer {
-        grid-template-areas: 
-            "image"
-            "text";
-    }
-
-    .logo {
-        width: 150pt;
-        height: 150pt;
-        margin: auto;
-        margin-bottom: 0;
-    }
-    
-    .subtext {
-        margin: 2rem;
-        font-size: 90%;
-    }
 }
-
 
 @keyframes blinkLights {
     0% {
-        text-shadow: 0;
         color:rgb(51, 50, 50);
     }
 
     6% {
-        text-shadow: 5px 5px 40px rgb(255, 2, 150);
         color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
     8% {
-        text-shadow: 0;
         color:rgb(51, 50, 50);
     }
     10% {
-        text-shadow: 5px 5px 40px rgb(255, 2, 150);
         color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
    
     100% {
-        text-shadow: 5px 5px 40px rgb(255, 2, 150);
         color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
 
 }
