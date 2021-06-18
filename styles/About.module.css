@@ -44,11 +44,11 @@
     color: #fff;
     font-size: 150%;
     font-family: Inter;
-    margin: 7rem 25rem 0px 0px ;
+    margin: 7rem 25rem 4rem 0px ;
     grid-area: text;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .title {
         font-size: 250%;
     }
