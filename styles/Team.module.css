@@ -28,14 +28,25 @@
     text-align: center;
     font-family: Potra;
     margin: 4rem;
+    margin-bottom: 1rem;
     animation: blinkLightsName ease 3s;
     animation-iteration-count: infinite;
+}
+
+.subtext {
+    color: #fff;
+    font-size: 140%;
+    font-family: Inter;    
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
 .teamShowcase {
     display: grid;
     grid-template-areas: 
-        "member1 member2 member3";
+        "member1 member2 member3"
+        "member4 member5 member6";
 }
 
 .memberImage {
@@ -43,6 +54,10 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
+}
+
+.member5 {
+    grid-area: member5;
 }
 
 @media screen and (max-width: 1025px) {
@@ -64,12 +79,19 @@
         grid-template-areas: 
             "member1"
             "member2"
-            "member3";
+            "member3"
+            "member4"
+            "member5"
+            "member6";
     }
 
     .memberImage {
         width: 200px;
         height: 200px;
+    }
+
+    .subtext {
+        font-size: 120%;
     }
 }
 
@@ -94,6 +116,7 @@
         color:rgb(255, 2, 150);
         text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
+
 }
 
 @keyframes blinkLightsName {
