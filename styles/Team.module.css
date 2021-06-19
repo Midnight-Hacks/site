@@ -17,14 +17,105 @@
     margin-left: 30rem;
     margin-right: 30rem;
     margin-top: 4rem;
+    margin-bottom: 5rem;
     animation: blinkLights ease 3s;
     animation-iteration-count: infinite;
 }
 
 .text {
-    color: #fff;
-    font-size: 200%;
+    color: rgb(2, 204, 255);
+    font-size: 300%;
     text-align: center;
-    font-family: Inter;
+    font-family: Potra;
     margin: 4rem;
+    animation: blinkLightsName ease 3s;
+    animation-iteration-count: infinite;
+}
+
+.teamShowcase {
+    display: grid;
+    grid-template-areas: 
+        "member1 member2 member3";
+}
+
+.memberImage {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1025px) {
+    .title {
+        font-size: 250%;
+        margin: 2rem;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        border-bottom: 2px solid rgb(8, 185, 224);
+        margin-bottom: 4rem;
+    }
+
+    .text {
+        margin-top: 1rem;
+    }
+
+    .teamShowcase {
+        grid-template-areas: 
+            "member1"
+            "member2"
+            "member3";
+    }
+
+    .memberImage {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@keyframes blinkLights {
+    0% {
+        color:rgb(51, 50, 50);
+    }
+
+    6% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+    8% {
+        color:rgb(51, 50, 50);
+    }
+    10% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+   
+    100% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+}
+
+@keyframes blinkLightsName {
+    0% {
+        color:rgb(51, 50, 50);
+    }
+
+    6% {
+        color:rgb(8, 185, 224);
+        text-shadow: 5px 5px 40px rgb(8, 185, 224);
+    }
+    8% {
+        color:rgb(51, 50, 50);
+    }
+    10% {
+        color:rgb(8, 185, 224);
+        text-shadow: 5px 5px 40px rgb(8, 185, 224);
+    }
+   
+    100% {
+        color:rgb(8, 185, 224);
+        text-shadow: 5px 5px 40px rgb(8, 185, 224);
+    }
+
 }
