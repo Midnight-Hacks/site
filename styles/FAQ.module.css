@@ -37,3 +37,74 @@
     font-family: Inter;    
     display: inline;
 }
+
+.questions {
+    display: grid;
+    grid-template-areas: 
+        "q1 q1"
+        "q3 q4"
+        "q5 q6";
+}
+
+@media screen and (max-width: 1025px) {
+    .title {
+        font-size: 250%;
+        margin: 2rem;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        border-bottom: 2px solid rgb(8, 185, 224);
+    }
+
+    .text {
+        font-size: 170%;
+        margin: 0;
+        margin-bottom: 2rem;
+        
+    }
+
+    .subtext {
+        margin: 2.5rem;
+        margin-top: 0;
+        font-size: 110%;
+    }
+
+    .prizeCard {
+        margin: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .prizes {
+        grid-template-areas: 
+            "q1"
+            "q2"
+            "q3"
+            "q4"
+            "q5"
+            "q6";
+    }
+}
+
+@keyframes blinkLights {
+    0% {
+        color:rgb(51, 50, 50);
+    }
+
+    6% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+    8% {
+        color:rgb(51, 50, 50);
+    }
+    10% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+   
+    100% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+
+}

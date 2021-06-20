@@ -12,7 +12,7 @@ const Team = () => {
                     <h1 className={teamStyles.subtext}>Founder</h1>
                 </div>
                 <div className={teamStyles.member}>
-                    <img src="/members/placeholder.PNG" className={teamStyles.memberImage} />
+                    <img src="/members/fahim.png" className={teamStyles.memberImage} />
                     <h1 className={teamStyles.text}>fahim</h1>
                     <h1 className={teamStyles.subtext}>Co-founder</h1>
                 </div>
