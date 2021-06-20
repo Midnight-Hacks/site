@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     height: 100%;
+    text-align: center;
 }
 
 .text {
@@ -16,9 +17,52 @@
 
 .subtext {
     color: #fff;
-    font-size: 140%;
+    font-size: 90%;
     font-family: Inter;    
     margin: auto;
     text-align: center;
     margin-bottom: 4rem;
+}
+
+.socialList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    display: inline;
+    filter: invert(22%) sepia(72%) saturate(7163%) hue-rotate(316deg) brightness(101%) contrast(111%);
+    width: 30pt;
+    height: 30pt;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 1025px) {
+
+    .background {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .text {
+        font-size: 200%;
+        margin: 2rem;
+        margin-bottom: 1rem;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .icon {
+        width: 25pt;
+        height: 25pt;
+        margin: 1rem;
+    }
+
+    .subtext {
+        font-size: 90%;
+    }
 }
