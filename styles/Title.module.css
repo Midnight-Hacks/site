@@ -13,6 +13,7 @@
     background-size: cover;
     background-position: center;
     height: 100%;
+    text-align: center;
 }
 
 .content {
@@ -50,7 +51,7 @@
 }
 
 .btn {
-    display: block;
+    display: inline-block;
     width: 150px;
     padding: 8px 0;
     background: transparent;
@@ -58,7 +59,7 @@
     border-radius: 9px;
     color: white;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
     transition: 200ms ease;
 }
