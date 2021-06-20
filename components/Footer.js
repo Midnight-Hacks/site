@@ -11,12 +11,12 @@ const Footer = () => {
                     </a>
                 </li>
                 <li className={footerStyles.media}>
-                    <a href="https://github.com/Midnight-Hacks">
+                    <a href="https://github.com/Midnight-Hacks" target="_blank">
                         <img src="/footer-icons/github-sign.svg" className={footerStyles.icon}/>
                     </a>
                 </li>
                 <li className={footerStyles.media}>
-                    <a href="https://discord.gg/CSAtdSew8g">
+                    <a href="https://discord.gg/CSAtdSew8g" target="_blank">
                         <img src="/footer-icons/discord.svg" className={footerStyles.icon}/>
                     </a>
                 </li>
