@@ -2,7 +2,8 @@ import prizeStyles from '../styles/Prize.module.css';
 
 const Prize = () => {
     return (
-        <section className={prizeStyles.background} id="prizes">
+        <section className={prizeStyles.background}>
+            <br id="prizes" />
             <br /><br />
             <span className={prizeStyles.title}>prizes</span>
             <div className={prizeStyles.prizes}>

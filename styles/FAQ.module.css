@@ -28,7 +28,7 @@
     font-family: Potra;
     margin: 2rem;
     margin-bottom: 2rem;
-    color: rgb(8, 185, 224);
+    color: rgb(255, 2, 150);
 }
 
 .subtext {
@@ -53,6 +53,11 @@
     margin-bottom: 4rem;
 }
 
+.quesDesc {
+    margin-top: 2rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
 
 @media screen and (max-width: 1025px) {
 
@@ -69,16 +74,10 @@
         font-size: 170%;
         margin: 0;
         margin-bottom: 2rem;
-        
     }
 
     .subtext {
-        font-size: 110%;
-    }
-
-    .quesCard {
-        margin: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: 105%;
     }
 
     .questions {
@@ -90,9 +89,21 @@
             "q5"
             "q6";
     }
+
     .quesCard {
-        margin: 2rem;
+        margin: 2.5rem;
         margin-bottom: 1rem;
+    }
+
+    .quesDiv {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .quesDesc {
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        margin: 0;
     }
 }
 
