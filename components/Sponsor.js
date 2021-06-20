@@ -12,7 +12,6 @@ const Sponsor = () => {
                     Sponsor us!
                 </button>
             </a>
-            
         </section>
     );
 }

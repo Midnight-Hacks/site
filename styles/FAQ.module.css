@@ -27,26 +27,35 @@
     text-align: center;
     font-family: Potra;
     margin: 2rem;
-    margin-left: 0;
+    margin-bottom: 2rem;
     color: rgb(8, 185, 224);
 }
 
 .subtext {
     color: #fff;
     font-size: 140%;
-    font-family: Inter;    
-    display: inline;
+    font-family: Inter;  
 }
 
 .questions {
     display: grid;
     grid-template-areas: 
-        "q1 q1"
+        "q1 q2"
         "q3 q4"
         "q5 q6";
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    text-align: center;
 }
 
+.quesDiv {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
 @media screen and (max-width: 1025px) {
+
     .title {
         font-size: 250%;
         margin: 2rem;
@@ -64,17 +73,15 @@
     }
 
     .subtext {
-        margin: 2.5rem;
-        margin-top: 0;
         font-size: 110%;
     }
 
-    .prizeCard {
+    .quesCard {
         margin: 2.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
-    .prizes {
+    .questions {
         grid-template-areas: 
             "q1"
             "q2"
@@ -82,6 +89,10 @@
             "q4"
             "q5"
             "q6";
+    }
+    .quesCard {
+        margin: 2rem;
+        margin-bottom: 1rem;
     }
 }
 
