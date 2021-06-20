@@ -5,6 +5,7 @@ import Sponsor from '../components/Sponsor';
 import Nav from '../components/Nav';
 import Prize from '../components/Prize';
 import Team from '../components/Team';
+import FAQ from '../components/FAQ';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Sponsor />
         <Prize />
         <Team />
+        <FAQ />
       </div>
   )
 }

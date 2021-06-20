@@ -3,7 +3,8 @@ import teamStyles from '../styles/Team.module.css';
 const Team = () => {
     return (
         <section className={teamStyles.background}>
-            <span className={teamStyles.title} id="team">our team</span>
+            <br id="team" />
+            <span className={teamStyles.title} >our team</span>
             <div className={teamStyles.teamShowcase}>
                 <div className={teamStyles.member}>
                     <img src="/members/warren.PNG" className={teamStyles.memberImage} />
