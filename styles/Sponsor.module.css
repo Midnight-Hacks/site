@@ -48,11 +48,10 @@
     border: 1px solid rgb(255, 2, 150);
     border-radius: 9px;
     color: white;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     transition: 200ms ease;
     box-sizing: border-box;
-    
 }
 
 .btn:hover {

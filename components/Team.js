@@ -25,7 +25,16 @@ const Team = () => {
                     <img src="/members/jake.png" className={teamStyles.memberImage} />
                 <h1 className={teamStyles.text}>Jake</h1>
                 <h1 className={teamStyles.subtext}>twitch.tv/JakeJack</h1>
+                </div>
             </div>
+            <div className={teamStyles.buttonDiv}>
+                <span className={teamStyles.subtext}>Interested in being a mentor/judge?</span>
+                <br></br>
+                <a href="mailto:midnighthacks2021@gmail.com?subject=Mentor/Judge%20Interest">
+                    <button className={teamStyles.btn}>
+                        Apply here!
+                    </button>
+                </a>
             </div>
         </section>
     );

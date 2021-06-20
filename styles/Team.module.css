@@ -60,6 +60,30 @@
     grid-area: member5;
 }
 
+.buttonDiv {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    width: 180px;
+    padding: 8px 0;
+    background: transparent;
+    border: 1px solid rgb(2, 204, 255);
+    border-radius: 9px;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    transition: 200ms ease;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background: rgb(2, 204, 255);
+    outline: none;
+}
+
 @media screen and (max-width: 1025px) {
     .title {
         font-size: 250%;
