@@ -2,8 +2,8 @@ import faqStyles from '../styles/FAQ.module.css';
 
 const FAQ = () => {
     return (
-        <section>
-        
+        <section className={faqStyles.background} id="faq">
+            
         </section>
     );
 }

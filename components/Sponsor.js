@@ -9,7 +9,7 @@ const Sponsor = () => {
             <h3 className={sponsorStyles.text}>sponsor us <br></br>please</h3>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                     <button className={sponsorStyles.btn}>
-                        Sponsor us!
+                        <a href="mailto:midnighthacks2021@gmail.com?subject=Sponsorship%20Interest">Sponsor us!</a>
                     </button>
                 </a>
             
