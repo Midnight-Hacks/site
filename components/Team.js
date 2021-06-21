@@ -17,7 +17,7 @@ const Team = () => {
                     <h1 className={teamStyles.subtext}>Co-founder</h1>
                 </div>
                 <div className={teamStyles.member}>
-                    <img src="/members/placeholder.PNG" className={teamStyles.memberImage} />
+                    <img src="/members/asa.png" className={teamStyles.memberImage} />
                     <h1 className={teamStyles.text}>asa</h1>
                     <h1 className={teamStyles.subtext}>Co-founder</h1>
                 </div>
