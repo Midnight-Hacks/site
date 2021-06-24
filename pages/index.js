@@ -6,6 +6,7 @@ import Nav from '../components/Nav';
 import Prize from '../components/Prize';
 import Team from '../components/Team';
 import FAQ from '../components/FAQ';
+import Resources from '../components/Resources';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <Prize />
         <Team />
         <FAQ />
+        <Resources />
         <Footer />
       </div>
   )

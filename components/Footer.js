@@ -22,7 +22,7 @@ const Footer = () => {
                 </li>
             </ul>
             <h1 className={footerStyles.subtext}>
-                Icons made by <a href="https://www.flaticon.com/authors/dave-gandy"><u>Dave Gandy</u></a> and <a href="https://www.flaticon.com/authors/pixel-perfect"><u>Pixel Perfect</u></a> from <a href="https://www.flaticon.com/" ><u>Flaticon</u></a>
+                Icons made by <a href="https://www.flaticon.com/authors/dave-gandy"><u>Dave Gandy</u></a> and <a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank"><u>Pixel Perfect</u></a> from <a href="https://www.flaticon.com/" target="_blank"><u>Flaticon</u></a>
             </h1>
         </footer>
     );
