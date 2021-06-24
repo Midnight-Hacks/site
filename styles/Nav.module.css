@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Inter";
-    src: url("../styles/Inter/static/Inter-Medium.ttf");
-}
-
-@font-face {
-    font-family: "Potra";
-    src: url("../styles/Potra/Potra.otf") format("opentype");
-}
-
 .navbar {
     width: 100%;
     font-family: "Inter";

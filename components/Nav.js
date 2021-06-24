@@ -8,7 +8,7 @@ const routes = [
     { name: 'Prizes', href: '#prizes', current: false },
     { name: 'Team', href: '#team', current: false },
     { name: 'FAQ', href: '#faq', current: false },
-    
+    { name: 'Resources', href: '#resources', current: false },
 ]
 
 function classNames(...classes) {

@@ -20,6 +20,11 @@ const Footer = () => {
                         <img src="/footer-icons/discord.svg" className={footerStyles.icon}/>
                     </a>
                 </li>
+                <li className={footerStyles.media}>
+                    <a href="https://www.instagram.com/midnighthacks_ny/" target="_blank">
+                        <img src="/footer-icons/instagram.svg" className={footerStyles.icon} />
+                    </a>
+                </li>
             </ul>
             <h1 className={footerStyles.subtext}>
                 Icons made by <a href="https://www.flaticon.com/authors/dave-gandy"><u>Dave Gandy</u></a> and <a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank"><u>Pixel Perfect</u></a> from <a href="https://www.flaticon.com/" target="_blank"><u>Flaticon</u></a>

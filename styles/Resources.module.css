@@ -30,34 +30,25 @@
     margin: 4rem;
 }
 
-.btn {
-    display: inline-block;
-    width: 150px;
-    padding: 8px 0;
-    background: transparent;
-    border: 1px solid rgb(255, 2, 150);
-    border-radius: 9px;
-    color: white;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    transition: 200ms ease;
-    box-sizing: border-box;
-}
-
-.btn:hover {
-    background: rgb(255, 2, 150);
-    outline: none;
-}
-
 @media screen and (max-width: 1025px) {
+
     .title {
         font-size: 250%;
         margin: 2rem;
+        animation: none;
         border: none;
         box-shadow: none;
+        color: rgb(8, 185, 224);
         border-radius: 0;
-        border-bottom: 2px solid rgb(8, 185, 224);
+        border-bottom: 2px solid rgb(255, 2, 150);
     }
+    
+    .text {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 100%;
+    }
+
 }
 
 @keyframes blinkLights {

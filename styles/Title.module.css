@@ -1,12 +1,3 @@
-@font-face {
-    font-family: "Potra";
-    src: url("../styles/Potra/Potra.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../styles/Inter/static/Inter-Light.ttf");
-}
 
 .background {
     background-color: #000000;
