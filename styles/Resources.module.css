@@ -28,6 +28,22 @@
     text-align: center;
     font-family: Inter;
     margin: 4rem;
+    margin-bottom: 0;
+}
+
+.links {
+    display: grid;
+    grid-template-areas: 
+        "vid1 vid2"
+        "vid3 vid4";
+    text-align: center;
+    padding: 5rem;
+}
+
+.video {
+    display: inline;
+    width: 450px; 
+    height: 345px;
 }
 
 @media screen and (max-width: 1025px) {
