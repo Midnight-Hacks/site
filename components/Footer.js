@@ -6,7 +6,7 @@ const Footer = () => {
             <h1 className={footerStyles.text}>midnight hacks</h1>
             <ul className={footerStyles.socialList}>
                 <li className={footerStyles.media}>
-                    <a href="mailto:midnighthacks2021@gmail.com">
+                    <a href="mailto:warren@midnighthacks.tech">
                         <img src="/footer-icons/envelope.svg" className={footerStyles.icon}/>
                     </a>
                 </li>

@@ -30,7 +30,7 @@ const Team = () => {
             <div className={teamStyles.buttonDiv}>
                 <span className={teamStyles.subtext}>Interested in being a mentor/judge?</span>
                 <br></br>
-                <a href="mailto:midnighthacks2021@gmail.com?subject=Mentor/Judge%20Interest">
+                <a href="mailto:warren@midnighthacks.tech?subject=Mentor/Judge%20Interest">
                     <button className={teamStyles.btn}>
                         Apply here!
                     </button>
