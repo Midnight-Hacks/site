@@ -49,7 +49,7 @@ const FAQ = () => {
                         <span className={faqStyles.text}>where will the event be hosted?</span>
                     </div>
                     <div className={faqStyles.quesDesc}>
-                        <span className={faqStyles.subtext}>The event location will be announced at a later date!</span>
+                        <span className={faqStyles.subtext}>The event will be virtual this year!</span>
                     </div>
                 </div>
 

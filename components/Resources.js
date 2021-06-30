@@ -32,7 +32,6 @@ const Resources = () => {
                     </iframe>
                 </div>
             </div>
-            
         </section>
     );
 }
