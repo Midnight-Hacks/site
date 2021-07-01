@@ -1,7 +1,7 @@
 import cardStyles from '../styles/Card.module.css';
 
 const Card = () => (
-    <div>
+    <div className={cardStyles.cardbase}>
 
     </div>
 )

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Nav from '../components/Nav';
+import Card from '../components/Card';
 
 import challengeStyles from '../styles/Challenges.module.css';
 
@@ -14,6 +15,15 @@ export default function ChallengePage() {
             <br></br>
             <br></br>
             <span className={challengeStyles.title}>challenges</span>
+            <br></br>
+            <section className={challengeStyles.cardSection}>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </section>
         </div>
     )
 }
