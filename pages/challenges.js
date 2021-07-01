@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Nav from '../components/Nav';
 
-import challengeStyles from '../styles/Challenges.module.css'
+import challengeStyles from '../styles/Challenges.module.css';
 
 export default function ChallengePage() {
     return (
