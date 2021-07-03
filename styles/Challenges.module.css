@@ -23,13 +23,12 @@
 }
 
 .cardSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30rem;
-    margin-right: 30rem;
-    margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 1025px) {
