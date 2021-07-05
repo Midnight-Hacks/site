@@ -10,7 +10,7 @@ const Title = () => {
                     <span className={titleStyles.title}>midnight hacks</span>
                     <h1 className={titleStyles.date}>August 21st, 2021</h1>
                     <img src="/website-logo.png" className={titleStyles.logo}/>
-                    <h2 className={titleStyles.text}>A 12-hour student led hackathon designed for beginners!</h2>     
+                    <h2 className={titleStyles.text}>A 24-hour student led hackathon designed for beginners!</h2>     
                     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
                         <button className={titleStyles.btn}>
                             Coming soon

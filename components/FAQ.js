@@ -21,7 +21,7 @@ const FAQ = () => {
                         <span className={faqStyles.text}>who can join?</span>
                     </div>
                     <div className={faqStyles.quesDesc}>
-                        <span className={faqStyles.subtext}>Midnight Hacks is open to middle school and high school students!</span>
+                        <span className={faqStyles.subtext}>Midnight Hacks is open to everyone!</span>
                     </div>
                 </div>
 
