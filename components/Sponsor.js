@@ -10,9 +10,11 @@ const Sponsor = () => {
                     <img src="/sponsors/aops.png" alt="the art of problem solving" className={sponsorStyles.sponsorLogo}/>
                 </a>
                 <a href="https://hackclub.com/bank/" target="_blank">
-                    <img src="/sponsors/hack_club_bank.png" alt="the art of problem solving" className={sponsorStyles.sponsorLogo}/>
+                    <img src="/sponsors/hack_club_bank.png" alt="hack club bank" className={sponsorStyles.sponsorLogo}/>
                 </a>
-
+                <a href="https://www.echoar.xyz/" target="_blank">
+                    <img src="/sponsors/echo_ar.png" alt="echo ar" className={sponsorStyles.sponsorLogo}/>
+                </a>
             </div>
             <a href="mailto:warren@midnighthacks.tech?subject=Sponsorship%20Interest">
                 <button className={sponsorStyles.btn}>
