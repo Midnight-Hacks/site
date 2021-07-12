@@ -18,6 +18,9 @@ const Sponsor = () => {
                 <a href="https://replit.com/" target="_blank">
                     <img src="/sponsors/replit.svg" alt="repl it" className={sponsorStyles.sponsorLogo}/>
                 </a>
+                <a href="https://www.taskade.com/" target="_blank">
+                    <img src="/sponsors/taskade.png" alt="repl it" className={sponsorStyles.sponsorLogo}/>
+                </a>
             </div>
             <a href="mailto:warren@midnighthacks.tech?subject=Sponsorship%20Interest">
                 <button className={sponsorStyles.btn}>
