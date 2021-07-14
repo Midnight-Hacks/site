@@ -19,7 +19,6 @@ export default function Home() {
         <Title />
         <About />
         <Sponsor />
-        <Prize />
         <Team />
         <FAQ />
         <Resources />
