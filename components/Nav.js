@@ -5,7 +5,7 @@ import Link from 'next/link';
 const routes = [
     { name: 'About', href: '#about', current: false },
     { name: 'Sponsors', href: '#sponsors', current: false },
-    { name: 'Prizes', href: '#prizes', current: false },
+    // { name: 'Prizes', href: '#prizes', current: false },
     { name: 'Team', href: '#team', current: false },
     { name: 'FAQ', href: '#faq', current: false },
     { name: 'Resources', href: '#resources', current: false },
