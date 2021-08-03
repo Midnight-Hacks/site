@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import Card from '../components/Card';
 
 import challengeStyles from '../styles/Challenges.module.css';
+import titleStyles from '../styles/Title.module.css';
 
 export default function ChallengePage() {
     return (
@@ -15,7 +16,7 @@ export default function ChallengePage() {
             <br></br>
             <br></br>
             <span className={challengeStyles.title}>challenges</span>
-            <br></br>
+            <h2 className={titleStyles.text}>Coming soon :)</h2>
             <section className={challengeStyles.cardSection}>
                 <Card />
                 <Card />
