@@ -3,6 +3,10 @@
     background-size: cover;
     background-position: center;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -38,6 +42,11 @@
     width: 30pt;
     height: 30pt;
     margin: 2rem;
+}
+
+.vercel {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1025px) {

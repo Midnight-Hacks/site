@@ -26,6 +26,9 @@ const Footer = () => {
                     </a>
                 </li>
             </ul>
+            <a href="https://vercel.com/dashboard?utm_source=midnight-hacks-website&utm_campaign=oss" target="_blank">
+                <img src="/footer-icons/powered-by-vercel.svg" className={footerStyles.vercel} />
+            </a>
             <h1 className={footerStyles.subtext}>
                 Icons made by <a href="https://www.flaticon.com/authors/dave-gandy"><u>Dave Gandy</u></a> and <a href="https://www.flaticon.com/authors/pixel-perfect" target="_blank"><u>Pixel Perfect</u></a> from <a href="https://www.flaticon.com/" target="_blank"><u>Flaticon</u></a>
             </h1>
