@@ -21,7 +21,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li className={footerStyles.media}>
-                    <a href="https://www.instagram.com/midnighthacks_ny/" target="_blank">
+                    <a href="https://www.instagram.com/midnighthacks_/" target="_blank">
                         <img src="/footer-icons/instagram.svg" className={footerStyles.icon} />
                     </a>
                 </li>
