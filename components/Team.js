@@ -4,7 +4,7 @@ const Team = () => {
     return (
         <section className={teamStyles.background}>
             <br id="team" />
-            <span className={teamStyles.title} >our team</span>
+            <div className={teamStyles.title}>our team</div>
             <div className={teamStyles.teamShowcase}>
                 <div className={teamStyles.member}>
                     <img src="/members/warren.PNG" className={teamStyles.memberImage} />
@@ -21,10 +21,10 @@ const Team = () => {
                     <h1 className={teamStyles.text}>asa</h1>
                     <h1 className={teamStyles.subtext}>Co-founder</h1>
                 </div>
-                <div className="member member5">
+                <div className={teamStyles.member}>
                     <img src="/members/jake.png" className={teamStyles.memberImage} />
-                <h1 className={teamStyles.text}>Jake</h1>
-                <h1 className={teamStyles.subtext}>twitch.tv/JakeJack</h1>
+                    <h1 className={teamStyles.text}>Jake</h1>
+                    <h1 className={teamStyles.subtext}>twitch.tv/JakeJack</h1>
                 </div>
             </div>
             <div className={teamStyles.buttonDiv}>

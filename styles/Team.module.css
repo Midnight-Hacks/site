@@ -22,12 +22,17 @@
     animation-iteration-count: infinite;
 }
 
+.member {
+    width: 16rem;
+    height: 16rem;
+}
+
 .text {
     color: rgb(2, 204, 255);
     font-size: 300%;
     text-align: center;
     font-family: Potra;
-    margin: 4rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
     animation: blinkLightsName ease 3s;
     animation-iteration-count: infinite;
@@ -36,28 +41,23 @@
 .subtext {
     color: #fff;
     font-size: 140%;
-    font-family: Inter;    
+    font-family: Inter;
     margin: auto;
     text-align: center;
-    margin-bottom: 4rem;
 }
 
 .teamShowcase {
-    display: grid;
-    grid-template-areas: 
-        "member1 member2 member3"
-        "member4 member5 member6";
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .memberImage {
     margin: auto;
-    width: 350px;
-    height: 350px;
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
-}
-
-.member5 {
-    grid-area: member5;
 }
 
 .buttonDiv {
@@ -97,16 +97,6 @@
 
     .text {
         margin-top: 1rem;
-    }
-
-    .teamShowcase {
-        grid-template-areas: 
-            "member1"
-            "member2"
-            "member3"
-            "member4"
-            "member5"
-            "member6";
     }
 
     .memberImage {
