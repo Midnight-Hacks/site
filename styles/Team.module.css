@@ -22,11 +22,6 @@
     animation-iteration-count: infinite;
 }
 
-.member {
-    width: 16rem;
-    height: 16rem;
-}
-
 .text {
     color: rgb(2, 204, 255);
     font-size: 300%;
@@ -62,7 +57,7 @@
 
 .buttonDiv {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .btn {
