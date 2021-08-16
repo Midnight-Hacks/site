@@ -14,16 +14,12 @@
 .title {
     color: #fff;
     font-family: Potra;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 1rem;
     align-items: center;
     font-size: 700%;
     border-radius: 15px;
     border: 5px solid rgb(255, 2, 150);
     box-shadow: 5px 5px 40px rgb(255, 2, 150);
-    margin-left: 15rem;
-    margin-right: 15rem;
     animation: blinkLights ease 3s;
     animation-iteration-count: infinite;
 }
