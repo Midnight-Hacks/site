@@ -43,9 +43,13 @@
 
 .teamShowcase {
     display: flex;
-    gap: 4rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.member {
+    margin: 2rem;
+    margin-bottom: 3rem;
 }
 
 .memberImage {
