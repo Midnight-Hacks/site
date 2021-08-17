@@ -9,17 +9,22 @@ const Team = () => {
                 <div className={teamStyles.member}>
                     <img src="/members/warren.PNG" className={teamStyles.memberImage} />
                     <h1 className={teamStyles.text}>warren</h1>
-                    <h1 className={teamStyles.subtext}>Host</h1>
+                    <h1 className={teamStyles.subtext}>Organizer</h1>
                 </div>
                 <div className={teamStyles.member}>
                     <img src="/members/fahim.png" className={teamStyles.memberImage} />
                     <h1 className={teamStyles.text}>fahim</h1>
-                    <h1 className={teamStyles.subtext}>Co-Host</h1>
+                    <h1 className={teamStyles.subtext}>Organizer</h1>
                 </div>
                 <div className={teamStyles.member}>
                     <img src="/members/asa.png" className={teamStyles.memberImage} />
                     <h1 className={teamStyles.text}>asa</h1>
-                    <h1 className={teamStyles.subtext}>Co-Host</h1>
+                    <h1 className={teamStyles.subtext}>Organizer</h1>
+                </div>
+                <div className={teamStyles.member}>
+                    <img src="/members/alex.PNG" className={teamStyles.memberImage} />
+                    <h1 className={teamStyles.text}>alexandria</h1>
+                    <h1 className={teamStyles.subtext}>Organizer</h1>
                 </div>
                 <div className={teamStyles.member}>
                     <img src="/members/jake.png" className={teamStyles.memberImage} />
