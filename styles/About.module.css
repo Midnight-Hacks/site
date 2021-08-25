@@ -52,6 +52,10 @@
     grid-area: text;
 }
 
+.why {
+    padding: 2rem 9rem;
+}
+
 @media screen and (max-width: 1025px) {
     .title {
         font-size: 250%;
@@ -60,6 +64,10 @@
         box-shadow: none;
         border-radius: 0;
         border-bottom: 2px solid rgb(8, 185, 224);
+    }
+
+    .why {
+        padding: 2rem;
     }
 
     .text {
