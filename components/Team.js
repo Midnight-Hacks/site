@@ -23,6 +23,21 @@ const teamMembers = [
     },
 ]
 
+const judges = []
+
+const mentors = [
+    {
+        image: 'anthony.jpg',
+        name: 'anthony',
+        desc: 'Mentor/Speaker'
+    },
+    {
+        image: 'jake.png',
+        name: 'jake',
+        desc: 'Mentor/Speaker'
+    }
+]
+
 const Team = () => {
     return (
         <section className={teamStyles.background}>
@@ -36,6 +51,20 @@ const Team = () => {
                         <h1 className={teamStyles.subtext}>{member.role}</h1>
                     </div>
                 ))}
+            </div>
+            <div className={teamStyles.title}>Judges</div>
+            <div className={teamStyles.teamShowcase}>
+                    
+            </div>
+            <div className={teamStyles.title}>Mentors</div>
+            <div className={teamStyles.teamShowcase}>
+                {mentors.map((mentor, i) => (
+                    <div className={teamStyles.member} key={i}>
+                        <img src={`/mentors/${mentor.image}`} className={teamStyles.memberImage} />
+                        <h1 className={teamStyles.text}>{mentor.name}</h1>
+                        <h1 className={teamStyles.subtext}>{mentor.desc}</h1>
+                    </div>
+                ))}                
             </div>
             <div className={teamStyles.buttonDiv}>
                 <span className={teamStyles.subtext}>Interested in being a mentor/judge?</span>
