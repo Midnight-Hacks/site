@@ -1,36 +1,41 @@
 import teamStyles from '../styles/Team.module.css';
 
+const teamMembers = [
+    {
+        image: 'warren.PNG',
+        name: 'warren',
+        role: 'Organizer'
+    },
+    {
+        image: 'fahim.png',
+        name: 'fahim',
+        role: 'Organizer'
+    },
+    {
+        image: 'asa.png',
+        name: 'asa',
+        role: 'Organizer'
+    },
+    {
+        image: 'alex.PNG',
+        name: 'alexandria',
+        role: 'Organizer'
+    },
+]
+
 const Team = () => {
     return (
         <section className={teamStyles.background}>
             <br id="team" />
             <div className={teamStyles.title}>our team</div>
             <div className={teamStyles.teamShowcase}>
-                <div className={teamStyles.member}>
-                    <img src="/members/warren.PNG" className={teamStyles.memberImage} />
-                    <h1 className={teamStyles.text}>warren</h1>
-                    <h1 className={teamStyles.subtext}>Organizer</h1>
-                </div>
-                <div className={teamStyles.member}>
-                    <img src="/members/fahim.png" className={teamStyles.memberImage} />
-                    <h1 className={teamStyles.text}>fahim</h1>
-                    <h1 className={teamStyles.subtext}>Organizer</h1>
-                </div>
-                <div className={teamStyles.member}>
-                    <img src="/members/asa.png" className={teamStyles.memberImage} />
-                    <h1 className={teamStyles.text}>asa</h1>
-                    <h1 className={teamStyles.subtext}>Organizer</h1>
-                </div>
-                <div className={teamStyles.member}>
-                    <img src="/members/alex.PNG" className={teamStyles.memberImage} />
-                    <h1 className={teamStyles.text}>alexandria</h1>
-                    <h1 className={teamStyles.subtext}>Organizer</h1>
-                </div>
-                <div className={teamStyles.member}>
-                    <img src="/members/jake.png" className={teamStyles.memberImage} />
-                    <h1 className={teamStyles.text}>Jake</h1>
-                    <h1 className={teamStyles.subtext}>twitch.tv/JakeJack</h1>
-                </div>
+                {teamMembers.map((member, i) => (
+                    <div className={teamStyles.member} key={i}>
+                        <img src={`/members/${member.image}`} className={teamStyles.memberImage} />
+                        <h1 className={teamStyles.text}>{member.name}</h1>
+                        <h1 className={teamStyles.subtext}>{member.role}</h1>
+                    </div>
+                ))}
             </div>
             <div className={teamStyles.buttonDiv}>
                 <span className={teamStyles.subtext}>Interested in being a mentor/judge?</span>
