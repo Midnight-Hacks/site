@@ -23,7 +23,23 @@ const teamMembers = [
     },
 ]
 
-const judges = []
+const judges = [
+    {
+        image: 'Uladzislau.jpg',
+        name: 'Uladzislau',
+        desc: 'Judge'
+    },
+    {
+        image: 'Vladislav.jpg',
+        name: 'Vladislav',
+        desc: 'Judge'
+    },
+    {
+        image: 'Anzor.jpg',
+        name: 'Anzor',
+        desc: 'Judge'
+    },
+]
 
 const mentors = [
     {
@@ -54,7 +70,13 @@ const Team = () => {
             </div>
             <div className={teamStyles.title}>Judges</div>
             <div className={teamStyles.teamShowcase}>
-                    
+                {judges.map((judge, i) => (
+                    <div className={teamStyles.member} key={i}>
+                        <img src={`/judges/${judge.image}`} className={teamStyles.memberImage} />
+                        <h1 className={teamStyles.text}>{judge.name}</h1>
+                        <h1 className={teamStyles.subtext}>{judge.desc}</h1>
+                    </div>
+                ))}                
             </div>
             <div className={teamStyles.title}>Mentors</div>
             <div className={teamStyles.teamShowcase}>
