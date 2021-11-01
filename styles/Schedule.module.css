@@ -4,3 +4,119 @@
     background-position: center;
     height: 100%;
 }
+
+.title {
+    color: #fff;
+    font-family: Potra;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+    border-bottom: 5px solid rgb(2, 204, 255);
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 5rem;
+    animation: blinkLights ease 3s;
+    animation-iteration-count: infinite;
+}
+
+.text {
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    font-family: Potra;
+    margin: 2rem;
+    margin-left: 0;
+    color: rgb(8, 185, 224);
+}
+
+.subtext {
+    color: #fff;
+    font-size: 140%;
+    font-family: Inter;    
+    display: inline;
+}
+
+.schedule {
+    display: grid;
+    grid-template-areas: 
+        "p1 p2 p3";
+}
+
+.scheduleCard {
+    margin: 4rem;
+    border-bottom: 3px solid rgb(255, 2, 150);
+}
+
+.scheduleDiv {
+    margin-bottom: 6rem;
+    max-width: 40rem;
+}
+
+.desc {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .title {
+        font-size: 250%;
+        margin: 2rem;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        border-bottom: 2px solid rgb(8, 185, 224);
+    }
+
+    .text {
+        font-size: 170%;
+        margin: 0;
+        margin-bottom: 2rem;
+        
+    }
+
+    .subtext {
+        margin: 2.5rem;
+        margin-top: 0;
+        font-size: 110%;
+    }
+
+    .scheduleCard {
+        margin: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .schedule {
+        grid-template-areas: 
+            "prize1";
+    }
+
+    .desc {
+        margin: 0;
+    }
+}
+
+@keyframes blinkLights {
+    0% {
+        color:rgb(51, 50, 50);
+    }
+
+    6% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+    8% {
+        color:rgb(51, 50, 50);
+    }
+    10% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+   
+    100% {
+        color:rgb(255, 2, 150);
+        text-shadow: 5px 5px 40px rgb(255, 2, 150);
+    }
+
+}

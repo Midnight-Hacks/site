@@ -2,7 +2,7 @@ import Title from '../components/Title';
 import About from '../components/About';
 import Sponsor from '../components/Sponsor';
 import Nav from '../components/Nav';
-import Prize from '../components/Prize';
+import Schedule from '../components/Schedule';
 import Team from '../components/Team';
 import FAQ from '../components/FAQ';
 import Resources from '../components/Resources';
@@ -15,6 +15,7 @@ export default function Home() {
         <Title />
         <About />
         <Sponsor />
+        <Schedule />
         <Team />
         <FAQ />
         <Resources />
