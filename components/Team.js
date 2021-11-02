@@ -39,6 +39,12 @@ const judges = [
         name: 'Anzor',
         desc: 'Judge'
     },
+    {
+        image: 'alex.png',
+        name: 'Alexander',
+        desc: 'Judge/Mentor'
+    },
+
 ]
 
 const mentors = [
@@ -51,7 +57,12 @@ const mentors = [
         image: 'jake.png',
         name: 'jake',
         desc: 'Mentor/Speaker'
-    }
+    },
+    {
+        image: 'alex.png',
+        name: 'Alexander',
+        desc: 'Judge/Mentor'
+    },
 ]
 
 const Team = () => {
@@ -76,7 +87,7 @@ const Team = () => {
                         <h1 className={teamStyles.text}>{judge.name}</h1>
                         <h1 className={teamStyles.subtext}>{judge.desc}</h1>
                     </div>
-                ))}                
+                ))}
             </div>
             <div className={teamStyles.title}>Mentors</div>
             <div className={teamStyles.teamShowcase}>
@@ -86,7 +97,7 @@ const Team = () => {
                         <h1 className={teamStyles.text}>{mentor.name}</h1>
                         <h1 className={teamStyles.subtext}>{mentor.desc}</h1>
                     </div>
-                ))}                
+                ))}
             </div>
             <div className={teamStyles.buttonDiv}>
                 <span className={teamStyles.subtext}>Interested in being a mentor/judge?</span>
