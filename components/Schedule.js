@@ -29,6 +29,10 @@ const events = [
         event: 'Internships as a High Schooler - 10:00 PM',
         desc: 'Come listen in for a talk from Anthony, going into detail on how you can land an internship as a high school student!'
     },
+    {
+        event: 'Next.js workshop - 10:30 PM',
+        desc: 'Join Sam for an intro to Next.js, a popular web framework!'
+    },
 ]
 
 const Schedule = () => {
