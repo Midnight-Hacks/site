@@ -15,11 +15,7 @@ const About = () => {
                 <h2 className={aboutStyles.text}><strong>Why Midnight Hacks?</strong></h2>
                 <span className={aboutStyles.subtext}>Jumping into programming is always the scariest part, but <b>Midnight Hacks</b> will mark the ending of your fears and will be the beginning of developing your programming mindset! We want to introduce programming and the world of technology via real world application. Learning a language is important, but understanding how to think like a programmer will help you solve any problems that come your way! 
                 <br /> <br />
-                Begin your programming journey in the dark day of <u>October 31st</u> with our 
-                <a href="/challenges">
-                    <b><u> Halloween Challenge</u></b>
-                </a>, 
-                or join us <u>November 6th</u> for the craziest 24 hours of your night! Midnight Hacks will prepare you for your new day of reaching out to other coding opportunities like New York Code Days in mid-November!</span>
+                Begin your programming journey and join us on <u>November 6th</u> for the craziest 24 hours of your night! Midnight Hacks will prepare you for your new day of reaching out to other coding opportunities like New York Code Days in mid-November!</span>
             </div>
         </section>
     );

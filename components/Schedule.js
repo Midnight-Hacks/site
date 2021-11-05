@@ -1,6 +1,6 @@
 import scheduleStyles from '../styles/Schedule.module.css';
 
-const events = [
+const eventsDay1 = [
     {
         event: 'Opening Ceremony - 6:00 PM',
         desc: 'Join us for our opening ceremony at the start of the event!'
@@ -35,14 +35,39 @@ const events = [
     },
 ]
 
+const eventsDay2 = [
+    {
+        event: 'Blockchain and Web3 workshop - 11:30 AM',
+        desc: 'Watch Rishi and his workshop on Blockchain and Web3!'
+    },
+    {
+        event: 'Hackathon project to the next level - 1:30 PM',
+        desc: 'Don\'t miss Abigayle\'s talk on taking your hackathon project a step further!'
+    },
+    {
+        event: 'Hacking end - 6:00PM',
+        desc: 'Submit your projects on Devpost!'
+    },
+    {
+        event: 'Live demos! - 6:20PM',
+        desc: 'Fill out the Google Form sent in the Discord server for a chance to live demo your project on the Main Stage!'
+    },
+    {
+        event: 'Closing ceremony - 7:15PM',
+        desc: 'Join us for our closing ceremony, where we\'ll announce the winners!'
+    },
+]
+
 const Schedule = () => {
     return (
         <section className={scheduleStyles.background}>
             <br id="schedule" />
             <br /><br />
             <span className={scheduleStyles.title}>schedule</span>
+            <span className={scheduleStyles.subtext}>Times are in EST!</span>
+            <span className={scheduleStyles.text}>November 6th</span>
             <div className={scheduleStyles.schedule}>
-                {events.map((event, i) => (
+                {eventsDay1.map((event, i) => (
                     <div className={scheduleStyles.scheduleDiv}>
                         <div className={scheduleStyles.scheduleCard}>
                             <span className={scheduleStyles.text}>{event.event}</span>
@@ -53,7 +78,19 @@ const Schedule = () => {
                     </div>
                 ))}
             </div>
-
+            <span className={scheduleStyles.text}>November 7th</span>
+            <div className={scheduleStyles.schedule}>
+                {eventsDay2.map((event, i) => (
+                    <div className={scheduleStyles.scheduleDiv}>
+                        <div className={scheduleStyles.scheduleCard}>
+                            <span className={scheduleStyles.text}>{event.event}</span>
+                        </div>
+                        <div className={scheduleStyles.desc}>
+                            <span className={scheduleStyles.subtext}>{event.desc}</span>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </section>
     );
 }
