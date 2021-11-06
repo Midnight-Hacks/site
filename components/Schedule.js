@@ -45,7 +45,7 @@ const eventsDay2 = [
         desc: 'Don\'t miss Abigayle\'s talk on taking your hackathon project a step further!'
     },
     {
-        event: 'Building a CLI! - 1:30 PM',
+        event: 'Building a CLI! - 3:30 PM',
         desc: 'Check out Ishan\'s workshop on building a CLI! You don\'t want to miss it!'
     },
     {
