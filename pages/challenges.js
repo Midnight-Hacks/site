@@ -7,34 +7,24 @@ import titleStyles from '../styles/Title.module.css';
 
 const challenges = [
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'Incorporate Echo3D',
+        desc: 'For FREE access to all Business Plan features of the echo3D platform, register here: https://console.echo3d.co/#/auth/register-promo?code=MidnightHacks',
+        points: '2'
     },
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'Plan your hack out on paper!',
+        desc: 'Submit a photo to the google form with a nice schematic/drawing/flowchart outlining your project. It doesn\'t have to reflect the final product.',
+        points: '1'
     },
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'Incorporate Data Science using R',
+        desc: 'Data Science is pretty cool so submit the form with your repo where we can see that you have used R and data science.',
+        points: '1'
     },
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
-    },
-    {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
-    },
-    {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'Show off a good looking ux',
+        desc: 'Nobody understands css, so be someone that pretends to understand it. Link your repo and an image of a sample of your godly css skills in this project.',
+        points: '1'
     },
 ]
 
@@ -49,7 +39,7 @@ export default function ChallengePage() {
             <br></br>
             <br></br>
             <span className={challengeStyles.title}>challenges</span>
-            <h2 className={titleStyles.text}>Coming soon :)</h2>
+            <h2 className={titleStyles.text}>Submit Challenges <a href="https://forms.gle/HGnDBBv2ZUBq34PB8">Here (click on the here idk why its not highlighting)</a></h2>
             <section className={challengeStyles.cardSection}>
                 {challenges.map((chal, i) => (
                     <Card key={i} name={chal.name} desc={chal.desc} points={chal.points}/>
