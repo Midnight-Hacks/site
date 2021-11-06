@@ -7,24 +7,24 @@ import titleStyles from '../styles/Title.module.css';
 
 const challenges = [
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'echo3D',
+        desc: 'Build a mini project using echo3D! If you need help, ask questions in the #echo3d channel on discord!',
+        points: '2'
     },
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'Planning!',
+        desc: 'Plan out your hack on paper, and submit a picture of it to us!',
+        points: '1'
     },
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'Incorporate Data Analysis with R',
+        desc: 'Use R to analyze a set of data! You can find sets of data from https://www.kaggle.com/',
+        points: '1'
     },
     {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
+        name: 'CSS Design',
+        desc: 'Try and learn and make something brand new with CSS, and show us a picture/link the code!',
+        points: '1'
     },
     {
         name: 'Challenge name',
