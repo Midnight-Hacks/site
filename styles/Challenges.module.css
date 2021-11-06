@@ -23,7 +23,7 @@
 .cardSection {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-around;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 5rem;
@@ -43,7 +43,7 @@
         font-size: 170%;
         margin: 0;
         margin-bottom: 2rem;
-        
+
     }
 
     .subtext {
@@ -58,7 +58,7 @@
     }
 
     .prizes {
-        grid-template-areas: 
+        grid-template-areas:
             "prize1"
             "prize2"
             "prize3"
@@ -88,7 +88,7 @@
         color:rgb(255, 2, 150);
         text-shadow: 5px 5px 40px rgb(255, 2, 150);
     }
-   
+
     100% {
         color:rgb(255, 2, 150);
         text-shadow: 5px 5px 40px rgb(255, 2, 150);
