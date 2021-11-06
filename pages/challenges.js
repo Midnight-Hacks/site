@@ -6,26 +6,35 @@ import challengeStyles from '../styles/Challenges.module.css';
 import titleStyles from '../styles/Title.module.css';
 
 const challenges = [
-
     {
-        name: 'Object Oriented Program',
-        desc: 'Project'
+        name: 'Challenge name',
+        desc: 'Description',
+        points: '0'
     },
     {
-        name: 'Object Oriented Program',
-        desc: 'Project'
+        name: 'Challenge name',
+        desc: 'Description',
+        points: '0'
     },
     {
-        name: 'Object Oriented Program',
-        desc: 'Project'
+        name: 'Challenge name',
+        desc: 'Description',
+        points: '0'
     },
     {
-        name: 'Object Oriented Program',
-        desc: 'Project'
+        name: 'Challenge name',
+        desc: 'Description',
+        points: '0'
     },
     {
-        name: 'Object Oriented Program',
-        desc: 'Project'
+        name: 'Challenge name',
+        desc: 'Description',
+        points: '0'
+    },
+    {
+        name: 'Challenge name',
+        desc: 'Description',
+        points: '0'
     },
 ]
 
@@ -43,7 +52,7 @@ export default function ChallengePage() {
             <h2 className={titleStyles.text}>Coming soon :)</h2>
             <section className={challengeStyles.cardSection}>
                 {challenges.map((chal, i) => (
-                    <Card key={i} name={chal.name} desc={chal.desc} />
+                    <Card key={i} name={chal.name} desc={chal.desc} points={chal.points}/>
                 ))}
             </section>
         </div>
