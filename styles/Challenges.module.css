@@ -40,11 +40,14 @@
     }
 
     .text {
-        font-size: 170%;
-        margin: 0;
-        margin-bottom: 2rem;
+        color: rgb(8, 185, 224);
+        font-size: 200%;
+        text-align: center;
+        font-family: Inter;
+        margin: 4rem;
 
     }
+    
 
     .subtext {
         margin: 2.5rem;

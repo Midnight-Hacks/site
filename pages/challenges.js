@@ -7,35 +7,16 @@ import titleStyles from '../styles/Title.module.css';
 
 const challenges = [
     {
-        name: 'echo3D',
-        desc: 'Build a mini project using echo3D! If you need help, ask questions in the #echo3d channel on discord!',
+        name: 'Build a live production version of your hack as a website',
+        desc: 'If you can successfully deploy your hack to a live website, we\'ll throw in a free .xyz domain for it! (First 50 that complete it)',
         points: '2'
     },
     {
-        name: 'Planning!',
-        desc: 'Plan out your hack on paper, and submit a picture of it to us!',
-        points: '1'
+        name: 'Win the Kahoot game!',
+        desc: 'Win the upcoming kahoot game happening at 12:30PM EST!',
+        points: '2'
     },
-    {
-        name: 'Incorporate Data Analysis with R',
-        desc: 'Use R to analyze a set of data! You can find sets of data from https://www.kaggle.com/',
-        points: '1'
-    },
-    {
-        name: 'CSS Design',
-        desc: 'Try and learn and make something brand new with CSS, and show us a picture/link the code!',
-        points: '1'
-    },
-    {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
-    },
-    {
-        name: 'Challenge name',
-        desc: 'Description',
-        points: '0'
-    },
+
 ]
 
 export default function ChallengePage() {
@@ -49,7 +30,7 @@ export default function ChallengePage() {
             <br></br>
             <br></br>
             <span className={challengeStyles.title}>challenges</span>
-            <h2 className={titleStyles.text}>Coming soon :)</h2>
+            <h2 className={titleStyles.text}>Submit Challenges <a href="https://forms.gle/HGnDBBv2ZUBq34PB8">Here (click on the here idk why its not highlighting)</a></h2>
             <section className={challengeStyles.cardSection}>
                 {challenges.map((chal, i) => (
                     <Card key={i} name={chal.name} desc={chal.desc} points={chal.points}/>
