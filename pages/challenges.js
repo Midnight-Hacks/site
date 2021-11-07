@@ -16,6 +16,16 @@ const challenges = [
         desc: 'Win the upcoming kahoot game happening at 12:30PM EST!',
         points: '2'
     },
+    {
+        name: 'Build something from a workshop!',
+        desc: 'Build something new that you\'ve learned from a workshop at our event!',
+        points: '3'
+    },
+    {
+        name: 'Build something from a workshop!',
+        desc: 'Build something new that you\'ve learned from a workshop at our event!',
+        points: '3'
+    },
 
 ]
 
