@@ -18,8 +18,13 @@ const challenges = [
     },
     {
         name: 'Build something from a workshop!',
-        desc: 'Build something new that you\'ve learned from a workshop at our event!',
+        desc: 'Build something new that you\'ve learned from a workshop at our event! (Besides the Git/Github workshop)',
         points: '3'
+    },
+    {
+        name: 'Well edited Devpost video!',
+        desc: 'Submit a well edited demo video on Devpost! Make sure to NOT rush! Just link your Devpost username in the challenge form.',
+        points: '1'
     },
 
 ]
