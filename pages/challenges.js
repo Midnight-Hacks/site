@@ -8,7 +8,7 @@ import titleStyles from '../styles/Title.module.css';
 const challenges = [
     {
         name: 'Build a live website!',
-        desc: 'If you can successfully deploy your hack to a live website, we\'ll throw in a free .xyz domain for it! (First 50 that complete it)',
+        desc: 'If you can successfully deploy your hack to a live website, we\'ll throw in a free .xyz domain for it! (First 50 that complete it). This is independent from the 2 points awarded to the first person to complete the challenge.',
         points: '2'
     },
     {
