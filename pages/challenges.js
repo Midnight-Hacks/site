@@ -19,12 +19,12 @@ const challenges = [
     {
         name: 'Incorporate Data Science using R',
         desc: 'Data Science is pretty cool so submit the form with your repo where we can see that you have used R and data science.',
-        points: '1'
+        points: '2'
     },
     {
         name: 'Show off a good looking ux',
         desc: 'Nobody understands css, so be someone that pretends to understand it. Link your repo and an image of a sample of your godly css skills in this project.',
-        points: '1'
+        points: '2'
     },
 ]
 
