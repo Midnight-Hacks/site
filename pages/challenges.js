@@ -14,11 +14,6 @@ const challenges = [
     {
         name: 'Win the Kahoot game!',
         desc: 'Win the upcoming kahoot game happening at 12:30PM EST!',
-        points: '2'
-    },
-    {
-        name: 'Build something from a workshop!',
-        desc: 'Build something new that you\'ve learned from a workshop at our event!',
         points: '3'
     },
     {
@@ -40,7 +35,7 @@ export default function ChallengePage() {
             <br></br>
             <br></br>
             <span className={challengeStyles.title}>challenges</span>
-            <h2 className={titleStyles.text}>Submit Challenges <a href="https://forms.gle/HGnDBBv2ZUBq34PB8">Here (click on the here idk why its not highlighting)</a></h2>
+            <h2 className={titleStyles.text}>Submit Challenges <a href="https://forms.gle/2gQ9fSgQPh445Gnk6">Here (click on the here idk why its not highlighting)</a></h2>
             <section className={challengeStyles.cardSection}>
                 {challenges.map((chal, i) => (
                     <Card key={i} name={chal.name} desc={chal.desc} points={chal.points}/>
