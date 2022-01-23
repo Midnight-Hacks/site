@@ -24,9 +24,6 @@ const Sponsor = () => {
                 <a href="https://gen.xyz/" target="_blank">
                     <img src="/sponsors/xyz-logo-white.png" alt="xyz" className={sponsorStyles.sponsorLogo}/>
                 </a>
-                <a href="https://www.stickermule.com/" target="_blank">
-                    <img src="/sponsors/sticker-mule-logo-dark-bg.svg" alt="stickermule" className={sponsorStyles.sponsorLogo}/>
-                </a>
             </div>
             <a href="mailto:warren@midnighthacks.tech?subject=Sponsorship%20Interest">
                 <button className={sponsorStyles.btn}>
